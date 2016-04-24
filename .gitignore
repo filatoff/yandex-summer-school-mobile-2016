@@ -5,6 +5,7 @@ Thumbs.db
 .DS_Store
 
 # built application files
+apk
 *.apk
 *.ap_
 
