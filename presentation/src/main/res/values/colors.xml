@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary_dark">#7f67b5</color>
+    <color name="color_primary">#977ad6</color>
+    <color name="color_accent">#ce93d8</color>
+
+    <!-- Common colors -->
+
+    <color name="text_primary_dark">#020202</color>
+    <color name="text_primary_light">#8b8b8b</color>
+
+    <color name="button_text_primary">#ffffff</color>
+
+    <!-- Modules colors -->
+
+    <color name="artist_list__item_selector">#e0e0e0</color>
+    <color name="artist_list__item_selector_focused">@color/artist_list__item_selector</color>
+    <color name="artist_list__item_selector_pressed">@color/artist_list__item_selector</color>
+    <color name="artist_list__item_selector_selected">@color/artist_list__item_selector</color>
+    <color name="artist_list__item_divider">#e0e0e0</color>
+</resources>

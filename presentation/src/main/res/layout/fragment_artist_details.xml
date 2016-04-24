@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main content (may be scrolled) -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Vertical linear layout (image -> info) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Image -->
+            <include layout="@layout/view_artist_details_image" />
+            <!-- Info -->
+            <include layout="@layout/view_artist_details_info" />
+
+            <!-- Image error for support landscape (see landscape xml) -->
+            <TextView
+                android:id="@+id/artist_detail__image_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Progress bar -->
+    <include layout="@layout/view_progress" />
+
+    <!-- Retry button on error -->
+    <include layout="@layout/view_error" />
+</RelativeLayout>

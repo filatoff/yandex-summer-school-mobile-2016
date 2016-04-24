@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main content (may be scrolled) -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Horizontal linear layout (50% image, 50% info) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!-- Image -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <include layout="@layout/view_artist_details_image" />
+
+                <TextView
+                    android:id="@+id/artist_detail__image_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/artist_detail__image_error_padding"
+                    android:text="@string/artist_detail__image_error"
+                    android:textSize="@dimen/artist_detail__image_error_text_size"
+                    android:textColor="@color/text_primary_light"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <!-- Info -->
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <include layout="@layout/view_artist_details_info" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Progress bar -->
+    <include layout="@layout/view_progress" />
+
+    <!-- Retry button on error -->
+    <include layout="@layout/view_error" />
+
+</RelativeLayout>

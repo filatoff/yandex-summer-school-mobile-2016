@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/artist_detail__info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/artist_detail__info_padding"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <!-- Genres -->
+    <TextView
+        android:id="@+id/artist_detail__genres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/artist_detail__genres_default"
+        android:textSize="@dimen/artist_detail__genres_text_size"
+        android:textColor="@color/text_primary_light" />
+
+    <!-- Albums and tracks counters -->
+    <TextView
+        android:id="@+id/artist_detail__counters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/artist_detail__counters_margin_top"
+        android:text="@string/artist_detail__counters_default"
+        android:textSize="@dimen/artist_detail__counters_text_size"
+        android:textColor="@color/text_primary_light" />
+
+    <!-- Biography title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/artist_detail__biography_title_margin_top"
+        android:text="@string/artist_detail__biography_title"
+        android:textSize="@dimen/artist_detail__biography_title_text_size"
+        android:textColor="@color/text_primary_dark" />
+
+    <!-- Biography main text -->
+    <TextView
+        android:id="@+id/artist_detail__biography"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/artist_detail__biography_text_margin_top"
+        android:text="@string/artist_detail__biography_text_default"
+        android:textSize="@dimen/artist_detail__biography_text_text_size"
+        android:textColor="@color/text_primary_dark"
+        android:lineSpacingMultiplier="1.4" />
+
+    <!-- Website url if possible -->
+    <TextView
+        android:id="@+id/artist_detail__link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/artist_detail__link_margin_top"
+        android:text="@string/artist_detail__link_default"
+        android:textSize="@dimen/artist_detail__link_text_size"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:visibility="gone" />
+
+</LinearLayout>

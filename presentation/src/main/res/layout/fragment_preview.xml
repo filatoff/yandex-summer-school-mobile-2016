@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/preview__button_to_app">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/preview__text_padding"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/preview__text_section_margin_bottom"
+                android:text="@string/preview__text_greeting"
+                android:textSize="@dimen/preview__text_size"
+                android:textColor="@color/text_primary_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/preview__text_section_margin_bottom"
+                android:text="@string/preview__text_app_info"
+                android:textSize="@dimen/preview__text_size"
+                android:textColor="@color/text_primary_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/preview__text_section_margin_bottom"
+                android:text="@string/preview__text_app_contains"
+                android:textSize="@dimen/preview__text_size"
+                android:textColor="@color/text_primary_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/preview__text_section_margin_bottom"
+                android:text="@string/preview__text_code"
+                android:textSize="@dimen/preview__text_size"
+                android:textColor="@color/text_primary_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/preview__text_ps"
+                android:textSize="@dimen/preview__text_size"
+                android:textColor="@color/text_primary_dark" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/preview__button_to_app"
+        style="@style/AppTheme.Button"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:text="@string/preview__button_to_app" />
+</RelativeLayout>

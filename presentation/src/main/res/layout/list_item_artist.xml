@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/artist_list__item_padding"
+    android:background="@drawable/selector_item_artist">
+
+    <!-- Cover -->
+    <ImageView
+        android:id="@+id/item_artist__image"
+        android:layout_width="@dimen/artist_list__item_image_width"
+        android:layout_height="@dimen/artist_list__item_image_height" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/artist_list__item_info_margin_left">
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/item_artist__name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/artist_list__item_name_margin_top"
+            android:text="@string/artist_list__item_name_default"
+            android:textSize="@dimen/artist_list__item_name_text_size"
+            android:textColor="@color/text_primary_dark" />
+
+        <!-- Genres -->
+        <TextView
+            android:id="@+id/item_artist__genres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_artist__name"
+            android:layout_marginTop="@dimen/artist_list__item_genres_margin_top"
+            android:text="@string/artist_list__item_genres_default"
+            android:textSize="@dimen/artist_list__item_genres_text_size"
+            android:textColor="@color/text_primary_light" />
+
+        <!-- Albums and tracks counters -->
+        <TextView
+            android:id="@+id/item_artist__counters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/artist_list__item_counters_default"
+            android:textSize="@dimen/artist_list__item_counters_text_size"
+            android:textColor="@color/text_primary_light" />
+
+    </RelativeLayout>
+
+</LinearLayout>

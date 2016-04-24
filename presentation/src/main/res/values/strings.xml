@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yandex Summer School</string>
+
+    <!-- Action bar titles -->
+
+    <string name="activity_title__preview">Yandex Summer School</string>
+    <string name="activity_title__artist_list">Artists</string>
+    <string name="activity_title__artist_details">Artist name</string>
+
+    <!-- Artist list -->
+
+    <string name="artist_list__menu_item_search_title">Search by name</string>
+    <string name="artist_list__menu_item_search_query_hint">Input name</string>
+    <string name="artist_list__menu_item_sort_title">Sort by</string>
+    <string name="artist_list__menu_item_sort_none_title">Without sorting</string>
+    <string name="artist_list__menu_item_sort_name_title">Sort by name</string>
+    <string name="artist_list__menu_item_sort_track_title">Sort by tracks</string>
+
+    <string name="artist_list__item_name_default">Artist name</string>
+    <string name="artist_list__item_genres_default">genres, with, delimiters</string>
+    <string name="artist_list__item_genres_delimiter">,&#160;</string>
+    <string name="artist_list__item_counters_default">n albums, m tracks</string>
+    <string name="artist_list__item_counters_delimiter">,&#160;</string>
+
+    <string name="artist_list__empty">Artists not found</string>
+
+    <!-- Artist details -->
+
+    <string name="artist_detail__genres_default">genres, with, delimiter</string>
+    <string name="artist_detail__genres_delimiter">,&#160;</string>
+    <string name="artist_detail__counters_default">n albums, m tracks</string>
+    <string name="artist_detail__counters_delimiter">&#160;&#160;&#183;&#160;&#160;</string>
+    <string name="artist_detail__biography_title">Biography</string>
+    <string name="artist_detail__biography_text_default">Long-long text of biography</string>
+    <string name="artist_detail__link_default">https://music.yandex.ru/search?text=..</string>
+    <string name="artist_detail__image_error">Image load failed</string>
+
+    <!-- Preview -->
+
+    <string name="preview__text_greeting">Hi! My name is Andrey Filatov.</string>
+    <string name="preview__text_app_info">This application is a solution of testing task for Yandex mobile summer school.</string>
+    <string name="preview__text_app_contains">Application contains preview screen, screen of artist list with searching and sorting, screen of artist info.</string>
+    <string name="preview__text_code">Source code based on Android Clean Architecture by Fernando Cejas.</string>
+    <string name="preview__text_ps">P.S. This preview screen is visible on first session only or after clearing app data manually.</string>
+    <string name="preview__button_to_app">Go to app</string>
+
+    <!-- Errors -->
+
+    <string name="error__button_retry">Retry</string>
+    <string name="error__message_generic">There was an application error</string>
+    <string name="error__message_no_connection">There is no internet connection</string>
+    <string name="error__message_artist_not_found">Cannot retrieve artist data. Check your internet connection</string>
+    <string name="error__message_unhandled">Unhandled exception:&#160;</string>
+
+    <!-- Plurals -->
+
+    <plurals name="albums">
+        <item quantity="zero">no albums</item>
+        <item quantity="one">%d album</item>
+        <item quantity="two">%d albums</item>
+        <item quantity="few">%d albums</item>
+        <item quantity="many">%d albums</item>
+        <item quantity="other">%d albums</item>
+    </plurals>
+
+    <plurals name="tracks">
+        <item quantity="zero">no tracks</item>
+        <item quantity="one">%d track</item>
+        <item quantity="two">%d tracks</item>
+        <item quantity="few">%d tracks</item>
+        <item quantity="many">%d tracks</item>
+        <item quantity="other">%d tracks</item>
+    </plurals>
+</resources>

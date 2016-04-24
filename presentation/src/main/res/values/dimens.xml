@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Common dimens -->
+
+    <dimen name="button__padding">16dp</dimen>
+    <dimen name="button__text_size">16sp</dimen>
+
+    <dimen name="error__padding">16dp</dimen>
+    <dimen name="error__text_size">18sp</dimen>
+
+    <!-- Modules dimens -->
+
+    <dimen name="preview__text_padding">16dp</dimen>
+    <dimen name="preview__text_size">16sp</dimen>
+    <dimen name="preview__text_section_margin_bottom">12dp</dimen>
+
+    <dimen name="artist_list__item_padding">16dp</dimen>
+    <dimen name="artist_list__item_divider_height">1dp</dimen>
+    <dimen name="artist_list__item_image_width">100dp</dimen>
+    <dimen name="artist_list__item_image_height">100dp</dimen>
+    <dimen name="artist_list__item_info_margin_left">16dp</dimen>
+    <dimen name="artist_list__item_name_margin_top">8dp</dimen>
+    <dimen name="artist_list__item_name_text_size">18sp</dimen>
+    <dimen name="artist_list__item_genres_margin_top">8dp</dimen>
+    <dimen name="artist_list__item_genres_text_size">14sp</dimen>
+    <dimen name="artist_list__item_counters_text_size">14sp</dimen>
+    <dimen name="artist_list__empty_padding">16dp</dimen>
+    <dimen name="artist_list__empty_text_size">18sp</dimen>
+
+    <dimen name="artist_detail__info_padding">16dp</dimen>
+    <dimen name="artist_detail__genres_text_size">14sp</dimen>
+    <dimen name="artist_detail__counters_margin_top">8dp</dimen>
+    <dimen name="artist_detail__counters_text_size">14sp</dimen>
+    <dimen name="artist_detail__biography_title_margin_top">8dp</dimen>
+    <dimen name="artist_detail__biography_title_text_size">18sp</dimen>
+    <dimen name="artist_detail__biography_text_margin_top">8dp</dimen>
+    <dimen name="artist_detail__biography_text_text_size">16sp</dimen>
+    <dimen name="artist_detail__link_margin_top">8dp</dimen>
+    <dimen name="artist_detail__link_text_size">16sp</dimen>
+    <dimen name="artist_detail__image_error_padding">32dp</dimen>
+    <dimen name="artist_detail__image_error_text_size">16sp</dimen>
+</resources>

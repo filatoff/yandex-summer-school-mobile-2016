@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Летняя школа Яндекса</string>
+
+    <!-- Action bar titles -->
+
+    <string name="activity_title__preview">Летняя школа Яндекса</string>
+    <string name="activity_title__artist_list">Исполнители</string>
+    <string name="activity_title__artist_details">Имя исполнителя</string>
+
+    <!-- Artist list -->
+
+    <string name="artist_list__menu_item_search_title">Поиск по имени</string>
+    <string name="artist_list__menu_item_search_query_hint">Введите имя</string>
+    <string name="artist_list__menu_item_sort_title">Сортировать</string>
+    <string name="artist_list__menu_item_sort_none_title">Без сортировки</string>
+    <string name="artist_list__menu_item_sort_name_title">По имени</string>
+    <string name="artist_list__menu_item_sort_track_title">По количеству треков</string>
+
+    <string name="artist_list__item_name_default">Имя исполнителя</string>
+    <string name="artist_list__item_genres_default">жанры, через, запятую</string>
+    <string name="artist_list__item_genres_delimiter">,&#160;</string>
+    <string name="artist_list__item_counters_default">n альбомов, m песен</string>
+    <string name="artist_list__item_counters_delimiter">,&#160;</string>
+
+    <string name="artist_list__empty">Исполнителей не найдено</string>
+
+    <!-- Artist details -->
+
+    <string name="artist_detail__genres_default">жанры, через, запятую</string>
+    <string name="artist_detail__genres_delimiter">,&#160;</string>
+    <string name="artist_detail__counters_default">n альбомов, m песен</string>
+    <string name="artist_detail__counters_delimiter">&#160;&#160;&#183;&#160;&#160;</string>
+    <string name="artist_detail__biography_title">Биография</string>
+    <string name="artist_detail__biography_text_default">Очень длинный текст биографии</string>
+    <string name="artist_detail__link_default">https://music.yandex.ru/search?text=..</string>
+    <string name="artist_detail__image_error">Не удалось загрузить изображение</string>
+
+    <!-- Preview -->
+
+    <string name="preview__text_greeting">Привет! Меня зовут Андрей Филатов.</string>
+    <string name="preview__text_app_info">Это приложение является реализацией тестового задания для школы мобильной разработки Яндекса.</string>
+    <string name="preview__text_app_contains">Приложение содержит в себе экран приветствия, экран со списком исполнителей с возможностью поиска по имени и сортировки, экран с детализацией исполнителя.</string>
+    <string name="preview__text_code">Реализация основана на подходе Android Clean Architecture, предложенном Fernando Cejas в серии статей \"Architecting Android\".</string>
+    <string name="preview__text_ps">P.S. Текущий экран приветствия появляется только во время первой сессии или после очистки данных приложения вручную. Во всех остальных случаях стартовым экраном приложения будет список исполнителей.</string>
+    <string name="preview__button_to_app">Перейти к приложению</string>
+
+    <!-- Errors -->
+
+    <string name="error__button_retry">Повторить запрос</string>
+    <string name="error__message_generic">Ошибка в приложении</string>
+    <string name="error__message_no_connection">Отсутствует интернет подключение</string>
+    <string name="error__message_artist_not_found">Исполнители не загружены. Проверьте интернет подключение</string>
+    <string name="error__message_unhandled">Неотловленная ошибка в приложении (только в дебаг-режиме):&#160;</string>
+
+    <!-- Plurals -->
+
+    <plurals name="albums">
+        <item quantity="zero">нет альбомов</item>
+        <item quantity="one">%d альбом</item>
+        <item quantity="two">%d альбома</item>
+        <item quantity="few">%d альбома</item>
+        <item quantity="many">%d альбомов</item>
+        <item quantity="other">%d альбомов</item>
+    </plurals>
+
+    <plurals name="tracks">
+        <item quantity="zero">нет песен</item>
+        <item quantity="one">%d песня</item>
+        <item quantity="two">%d песни</item>
+        <item quantity="few">%d песни</item>
+        <item quantity="many">%d песен</item>
+        <item quantity="other">%d песен</item>
+    </plurals>
+</resources>
