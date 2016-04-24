@@ -5,9 +5,9 @@ Thumbs.db
 .DS_Store
 
 # built application files
-apk
-*.apk
-*.ap_
+#apk
+#*.apk
+#*.ap_
 
 # files for the dex VM
 *.dex
